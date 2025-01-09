@@ -55,7 +55,7 @@ jobs:
       # Push the Docker Image
       - name: Push Docker Image
         run: |
-          docker push 1nfosecsingh/demo-app:${{ env.VERSION }}
+          docker push kartiksharmacs16/demo-app:${{ env.VERSION }}
         
       
 
