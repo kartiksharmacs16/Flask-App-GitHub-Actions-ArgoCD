@@ -56,10 +56,6 @@ jobs:
       - name: Push Docker Image
         run: |
           docker push 1nfosecsingh/demo-app:${{ env.VERSION }}
-
-      
-
-
         
       
 
